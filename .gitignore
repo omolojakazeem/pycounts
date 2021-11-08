@@ -142,3 +142,5 @@ dmypy.json
 .DS_Store
 
 zen.txt
+df.txt
+docs/einstein.txt
