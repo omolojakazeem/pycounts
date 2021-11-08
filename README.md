@@ -10,7 +10,18 @@ $ pip install my_py_counter
 
 ## Usage
 
-- TODO
+`my_py_counter` can be used to count words in a text file and plot the results as follows:
+
+```python
+from my_py_counter.my_py_counter import count_words
+from my_py_counter.plotting import plot_words
+import matplotlib.pyplot as plt
+
+file_path = "test.txt" # path to your file
+counts = count_words(file_path)
+fig = plot_words(counts, n=10)
+plt.show()
+```
 
 ## Contributing
 
